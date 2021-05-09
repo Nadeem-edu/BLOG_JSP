@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+height: 100%;
+font-family: 'Numans', sans-serif;
+margin: 0;
+}
+
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.login{
+height: auto;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+color: #FFC312;
+}
+
+.navbar-brand{
+	color: #FFC312!important;
+}
+
+.nav-link{
+	color: #FFC312!important;	
+}
+
+.navbar-brand:hover{
+	color: white!important;
+}
+
+.nav-link:hover{
+	color:white!important;	
+}
+
+.btn-outline-success{
+	color: black;
+	background-color: #FFC312;
+	width: 100px;
+	border-color: #FFC312!important;
+}
+
+.btn-outline-success:hover{
+color: #FFC312;
+background-color: white;
+border-color: #FFC312
+border-color: #FFC312!important;
+}
+
+.btn-outline-success:active{
+color: #FFC312!important;
+background-color: white!important;
+border-color: #FFC312!important;
+}
+
+.card{
+	margin-top:20px;
+	background-color:rgba(255,255,255,0.75);
+}
+
+span.navbar-toggler-icon{
+	color: #f6d365;
+}
+.navbar-toggler{
+	background-color: #f6d365;
+	color: white!important;
+}
+.navbar-toggler:hover{
+	background-color: white;
+	color: white!important;
+}
+div.scroll { 
+                height: 100vh;
+                overflow-x: hidden; 
+                overflow-x: auto; 
+                text-align:justify; 
+                scroll-behavior: auto;
+            } 
+
+scrollbar-sunny-morning::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: rgba(0,0,0,0);
+border-radius: 10px; }
+
+.scrollbar-sunny-morning::-webkit-scrollbar {
+width: 16px;
+background-color: rgba(0,0,0,0); }
+
+.scrollbar-sunny-morning::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f6d365 0%, #fda085 100%);
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); }
+
+.scrollbar-sunny-morning {
+scrollbar-color: #f6d365 rgba(0,0,0,0);
+}
+
+div.contri{
+	padding: 5px;
+	background-color: rgba(255,255,255,.5); 
+	text-align: center; 
+	border-radius: 10px; 
+	margin: 20px 10px; 
+	max-height: 400px; 
+	max-width: 100%;
+}
+
+div.contri h3{
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+}
+
+div.contri hr{
+	border-top: 2px solid white;
+}
+
+div.catsearch{
+	padding: 5px;
+	background-color: rgba(255,255,255,.5); 
+	text-align: center; 
+	border-radius: 10px; 
+	margin: 20px 10px; 
+	max-height: 400px; 
+	max-width: 100%;
+}
+
+div.catsearch h4{
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+}
+
+div.catsearch hr{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-top: 2px solid white;
+}
+
+select {
+	padding: 7px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: dodgerblue;
+	color: white;
+	line-height: 18px;
+	margin-bottom: 10px;
+
+}
+
+select:hover{
+	background-color: #0069d9;
+	cursor: pointer;
+}
+
+option:focus{
+	cursor: pointer;
+}
+option:hover{
+	cursor: pointer;
+}
+
+.pilled{
+	color: #007BFF!important;	
+}
+
+.active{
+	color: white!important;
+}
+
+
+@media (min-width: 992px)
+{
+.container {
+     max-width: 100%!important; 
+}
+}

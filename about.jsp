@@ -6,6 +6,8 @@ if((!(usertype.equals("user") || usertype.equals("admin"))))
   response.sendRedirect("login.jsp");
 }
 %>
+
+<!-- Hello /// -->
 <!DOCTYPE html>
 <html>
 <head>
